@@ -1,5 +1,41 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url(./fonts/Mark-Simonson-Proxima-Nova-Alt-Regular.otf) format('otf'),
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Proxima', sans-serif !important;
+  background: #F5F7F9;
+}
+
+.primary-title {
+  color: #A6B4C3;	
+  font-size: 20px;	
+  font-weight: 500;	
+  line-height: 24px;
+}
+
+.secondary-title {
+  color: #8D8D8D;	
+  font-family: "Proxima Nova";	
+  font-size: 16px;	
+  font-weight: 600;	
+  line-height: 19px;	
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.content-block {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+  background-color: #F5F8FA;
 }

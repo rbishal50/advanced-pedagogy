@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import './Layout.css';
+import Footer from '../../components/Footer/Footer';
 
 const Layout = (props) => (
     <Fragment>
@@ -7,7 +8,7 @@ const Layout = (props) => (
             <main className="Content">
                 { props.children }
             </main>
-        <h2>Footer</h2>
+        <Footer />
     </Fragment>
 );
 
