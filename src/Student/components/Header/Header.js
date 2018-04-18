@@ -2,9 +2,9 @@ import React from 'react';
 import TopBar from './TopBar/TopBar';
 
 const Header = (props) => (
-  <Header>
+  <header>
     <TopBar />
-  </Header>
+  </header>
 );
 
-export default Header;
+export default Header;headr
