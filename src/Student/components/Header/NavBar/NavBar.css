@@ -1,0 +1,32 @@
+.NavBar {
+  height: 50px;	
+  background-color: #FFFFFF;	
+  box-shadow: 0 2px 16px -8px rgba(0,0,0,0.1);
+  padding: 10px 30px;
+}
+
+.NavBar .nav-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.NavBar .nav-items li {
+  display: inline-block;
+  margin-right: 62px;
+  font-size: 16px;	
+  line-height: 19px;
+  padding: 5px 0;
+}
+
+.NavBar .nav-items li a {
+  color: #8D8D8D;	
+}
+
+.NavBar .nav-items li a.active,
+.NavBar .nav-items li a:focus,
+.NavBar .nav-items li a:hover {
+  color: #7AC141;	
+  text-decoration: none;
+  outline: none;
+}
