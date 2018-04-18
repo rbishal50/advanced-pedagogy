@@ -1,10 +1,11 @@
 import React, { Fragment } from 'react';
 import './Layout.css';
 import Footer from '../../components/Footer/Footer';
+import Header from '../../components/Header/Header';
 
 const Layout = (props) => (
     <Fragment>
-        <h2>Header</h2>
+            <Header />
             <main className="Content">
                 { props.children }
             </main>

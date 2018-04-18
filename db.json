@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Bishal",
+      "lastName": "Rana",
+      "address": {
+        "city": "Kathmandu",
+        "country": "Nepal"
+      },
+      "email": "test@test.com",
+      "college": "Sierra Academy of Business Science Administration",
+      "tags": ["Student", "Science", "Business"],
+      "totalBalance": 1200,
+      "profileImage": "http://via.placeholder.com/110x110",
+      "activityLogs": [
+        {  
+          "title": "Intro to Thermodynamics",
+          "subject": "IGSCE Physics",
+          "lastViewed": "April 18, 2018",
+          "completed": 60
+        },
+        {  
+          "title": "Motivatig Workers",
+          "subject": "Business Studies",
+          "lastViewed": "April 18, 2018",
+          "completed": 45
+        }
+      ]
+    }
+  ]
+}

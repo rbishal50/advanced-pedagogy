@@ -1,9 +1,11 @@
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Proxima';
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   src:
     url(./fonts/Mark-Simonson-Proxima-Nova-Alt-Regular.otf) format('otf'),
+    url(./fonts/Mark-Simonson-Proxima-Nova-Alt-Bold.otf) format('otf'),
+
 }
 
 body {
